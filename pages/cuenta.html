@@ -56,14 +56,15 @@
             <form action="">
                 <fieldset>
                     <legend>Acceder</legend>
-                    <div>
-                        <label for="usuario">Nombre de usuario o corre electrónico <span>*</span></label>
-                        <input type="text" placeholder="Tu nombre" id="usuario">
+
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Nombre de usuario o correo electrónico</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1">
                     </div>
 
-                    <div>
-                        <label for="contrasena">Contraseña <span>*</span></label>
-                        <input type="password" placeholder="" id="contrasena">
+                    <label for="inputPassword5" class="form-label">Contraseña</label>
+                    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                    <div id="passwordHelpBlock" class="form-text">
                     </div>
 
                     <input class="boton" type="submit" value="Acceder">
